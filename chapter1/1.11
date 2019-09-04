@@ -1,0 +1,24 @@
+(define (rec n) 
+(if (< n 3 )
+    n
+    (+ (rec (- n 1)) (* 2(rec (- n 2))) (* 3(rec (- n 3)))    )
+))
+
+
+
+n=4
+f(4)=f(3)+2f(2)+3f(1)
+f(3)=f(2)+2f(1)+3f(0)
+
+(define (iter n)
+    (define (iter2 a b c count)(
+
+        (if (= count 0)
+            (+ a (* 2 b) (* 3 c))
+            (iter2 (+ a (* 2 b) (* 3 c) a b (- count 1))
+        )
+
+    )
+    (iter2 2 1 0 (- n 3))
+    )
+)

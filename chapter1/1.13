@@ -1,0 +1,6 @@
+Fib(0)=0=(phi^0 - psi^0)/sqrt(5)=0
+Fib(1)=1=(..)=0
+
+Anahme=Fib(n)=(phi^n - psi^n)/sqrt(5)
+
+Fib(n+1)=Fib(n)+Fib(n-1)=(phi^n - psi^n)/sqrt(5)+(phi^n-1 - psi^n-1)/sqrt(5)=...should be....=(phi^n+1 - psi^n+1)/sqrt(5)
