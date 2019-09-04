@@ -1,0 +1,9 @@
+a)
+first rec call: 4.05
+second rec call: 1.35
+third rec call: 0.45
+fourth rec call: 0.15
+fifth rec call: 0.05 --> finishd
+5 calls!!!!!!
+
+b) O(log3(n))
