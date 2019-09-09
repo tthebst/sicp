@@ -1,0 +1,15 @@
+(define (sum term a next b)
+    (if (> a b)
+    0
+    (+ (term a)
+    (sum term (next a) next b)
+    )
+    )
+)
+(define (integral f a b n)
+    (define (add-dx x) (+ (/ (- b a) n) x)
+    (* (sum f a add-dx b) (/ (/ (- b a) n) 3))
+)
+
+(define (cube x) (* x x x))
+

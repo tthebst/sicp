@@ -1,0 +1,6 @@
+inside the even function we recursivly call expmode twice which results in a tree with two children and therefore is O(n)
+
+Ex:                 8
+                4       4
+            2       22      2
+        0       00      00      0

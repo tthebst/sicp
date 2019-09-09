@@ -1,0 +1,7 @@
+combiner either + or *
+null value if a >b 
+
+sum  : (accumulate + 0 term a next b)
+product: (accumulate * 1 term a next b)
+
+use function before both already iteraticve and recursive.

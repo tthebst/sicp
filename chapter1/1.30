@@ -1,0 +1,6 @@
+(> a b )
+result
+(next a)
+(+ result (term a))
+a
+0
