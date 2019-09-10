@@ -1,0 +1,6 @@
+(define (raise f n)
+    (if (= n 0)
+    (lambda (x) x)
+    (compose f (raise f (- n 1)))
+    )
+)
